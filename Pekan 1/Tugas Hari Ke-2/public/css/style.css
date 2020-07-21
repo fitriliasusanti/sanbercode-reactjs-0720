@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/pattern.jpg');
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #fff;
+    display: inline;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+nav {    
+    display: flex;
+    justify-content: space-between;   
+    padding: 0 2rem; 
+}
+
+nav img {
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+nav ul li {
+    float: left;
+}
+  
+nav ul li a {
+    display: block;
+    color: #333;    
+    padding: .875rem 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+nav ul li a:hover {
+    color: blue;
+}
+
+section {
+    background: #fff;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem .75rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+section h1 {
+    text-align: center;
+}
+
+section div {
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 3rem;
+}
+
+section div h3 {
+    color: coral;
+    transition: .4s;
+}
+
+section div h3:hover {
+    color: cornflowerblue;
+}
+
+div#article-list {
+    border-bottom: none;
+}
+
+footer {
+    background-color: #333;
+    bottom: 0;
+}
+
+footer h5 {
+    padding: 12px 0;    
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+}

@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">    
+
+    <style>
+        body {
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        div h1 {
+            text-align: center;
+        }
+       .kontak ul {
+           list-style-type: none;
+        padding-left: 0;
+       }
+
+       .kontak ul li {
+           padding: 5px 0;
+       }
+       .pesan {
+           margin-bottom: 3rem;
+       }
+       .pesan table {
+           width: 70%;
+       }
+       .pesan td {
+           vertical-align: top;
+           padding: 5px;
+       }
+
+       .pesan td:nth-child(1) {
+           font-weight: bold;
+       }
+
+       .pesan input[type=text] {
+           width: 100%;
+           height: 30px;
+       }
+       .pesan textarea {
+           height: 100px;
+       }
+
+       .pesan .btn {
+           width: 100px;
+           padding: 5px;
+           font-weight: bold;
+           font-size: 1rem;
+           border: none;
+           border-radius: 4px;
+           background-color: darkgray;
+       }
+
+       .pesan .btn:hover {
+           background-color: crimson;
+       }
+
+       a {
+            text-decoration: none;
+            color: crimson;
+            font-weight: bold;
+            font-size: 1rem;      
+        }
+
+        a:hover {
+            color: red;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="kontak">
+        <h1>Hubungi Kami</h1>
+        <ul>
+            <li><b>Kantor:</b> Surabaya</li>
+            <li><b>Nomor Telepon:</b> 0822-4474-4476</li>
+            <li><b>Email:</b> sfitrilia@gmail.com</li>
+        </ul>         
+    </div>
+
+    <div class="pesan">
+        <h1>Kirimkan Pesan</h1>
+        <form>
+            <table>
+                <tr>
+                    <td>Nama</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td><input type="radio">
+                        <label for="male">Perempuan</label><br>
+                        <input type="radio">
+                        <label for="female">Laki-laki</label><br>          
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pesan Anda</td>
+                    <td>
+                        <textarea style="width: 100%;"></textarea>
+                    </td>
+                </tr>
+            </table> 
+
+            <button type="button" class="btn">Kirim</button>
+          </form>
+              
+    </div>
+
+    <a href="index.html">Kembali Ke Index</a>
+  </body>
+</html> 
